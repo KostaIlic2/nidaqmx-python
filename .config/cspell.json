@@ -4,12 +4,13 @@
   // Keep the following list of items in alphabetical order.
   "dictionaryDefinitions": [
     { "name": "daqmx-api-elements", "path": "./cspell/daqmx-api-elements.txt", "noSuggest": true },
+    { "name": "daqmx-python-api-elements", "path": "./cspell/daqmx-python-api-elements.txt", "noSuggest": true },
     { "name": "real-words", "path": "./cspell/real-words.txt", "noSuggest": false },
     { "name": "mako-keywords", "path": "./cspell/mako-keywords.txt", "noSuggest": true },
     { "name": "project-software-terms", "path": "./cspell/project-software-terms.txt", "noSuggest": true },
     { "name": "sphinx-directives", "path": "./cspell/sphinx-directives.txt", "noSuggest": true }
   ],
-  "dictionaries": ["real-words", "daqmx-api-elements", "project-software-terms", "python"],
+  "dictionaries": [],
   "useGitignore": true,
   // Keep the following list of items in the order that they appear in VSCode
   // Explorer (directories in alphabetical order, followed by top-level files
@@ -27,9 +28,15 @@
     ".readthedocs.yml",            // ReadTheDocs config
     "poetry.lock",                 // auto-generated lock file; hashes and package URLs
     "poetry.toml",                 // Poetry config
-    "tox.ini"                      // tox config
+    "tox.ini",                     // tox config
+    "cspell_analysis/**"            // scratch files for API name analysis; not prose
   ],
   "overrides": [
+    {
+      "filename": "api_names.txt",
+      "caseSensitive": true,
+      "dictionaries": ["daqmx-python-api-elements"]
+    },
     {
       "filename": "**/*.mako",
       "dictionaries": ["real-words", "daqmx-api-elements", "python", "mako-keywords"]
@@ -41,6 +48,10 @@
     {
       "filename": "**/CONTRIBUTING.md",
       "dictionaries": ["real-words"]
+    },
+    {
+      "filename": ["**", "!api_names.txt"],
+      "dictionaries": ["real-words", "daqmx-api-elements", "project-software-terms", "python"]
     }
   ]
 }
