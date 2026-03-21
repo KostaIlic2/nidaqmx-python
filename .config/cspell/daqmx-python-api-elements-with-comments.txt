@@ -1,10 +1,8 @@
-acceld
 acrms                 # unseparated initialisms; AC RMS
 ACRMS                 # unseparated initialisms; AC RMS
 AHIGH                 # unseparated words; A high
 anlg                  # Approved DAQmx abbreviation
 AOHW                  # unseparated initialisms; AO HW
-ASYN
 atten                 # Approved DAQmx abbreviation
 ATTENTUATION          # Typo; should be: attenuation
 BACKPLANE             # Real word
@@ -15,78 +13,48 @@ BUTTERWORTH           # Real word
 CAPI                  # unseparated words; C API
 cdaq                  # Real word
 CERTITICATES          # Typo; should be: certificates
-CFGD
 cfgs                  # Approved DAQmx abbreviation
 chan                  # Approved DAQmx abbreviation
 chans                 # Approved DAQmx abbreviation
 CIHW                  # unseparated initialisms; CI HW
-CLKS
 cmplt                 # Approved DAQmx abbreviation
 CMPLT                 # Approved DAQmx abbreviation
-COEF
-coeff
-coeffs
-COEFFS
 COHW                  # unseparated initialisms; CO HW
 COHWTSP               # unseparated initialisms; CO HWTSP
-conv
-CONV
-COULDNT
-CTRS
 deassert              # Real word
 Deassert              # Real word
 DEASSERTS             # Real word
 devs                  # Approved DAQmx abbreviation
 DEVS                  # Approved DAQmx abbreviation
-DIFFT
-DOESNT
-DONT
-DSTAR
 EEPROM                # Real word
-ELEC
-ethernet
 excit                 # Approved DAQmx abbreviation
 Excit                 # Approved DAQmx abbreviation
 EXCIT                 # Approved DAQmx abbreviation
 expir                 # Approved DAQmx abbreviation
 Expir                 # Approved DAQmx abbreviation
 fltr                  # Approved DAQmx abbreviation
-FREQOUT
 gage                  # Approved DAQmx abbreviation
 highpass              # Real word
-hshk
 hwteds                # unseparated initialisms; HW TEDS
-HWTSP
 hyst                  # Approved DAQmx abbreviation
-hysts
 iepe                  # Real word
 IEPE                  # Real word
-IMMED
 INVALIDC              # Typo; should be: INVALID_CDAQ_SYNC_PORT_CONNECTION_FORMAT
-IRIGB
-ISOC
 JUMPERED              # Real word
 lowpass               # Real word
 LOWPASS               # Real word
 lvdt                  # Real word; Approved DAQmx abbreviation
 LVDT                  # Real word; Approved DAQmx abbreviation
-lvls
 MDNS                  # Real word
 MILLI                 # Real word
 MIOAI                 # unseparated initialisms; MIO AI
 MIODAQ                # Real word
-MULT
 MULTIDEVICE           # unseparated words
-nidaqmx
 NIELVIS               # Real word
 NONBUFFERED           # unseparated words
 NONPRINTABLE          # Real word
 NOTKNOWN              # unseparated words
 NRSE                  # Approved DAQmx abbreviation
-numpy
-nums
-onbrd
-outp
 overcurrent           # Real word
 OVERREAD              # Real word
 overtemperature       # Real word
@@ -95,42 +63,26 @@ PICO                  # Real word
 poisson               # Approved DAQmx abbreviation
 POSSSIBLE             # Typo; should be: possible
 POWERUP               # Real word
-prescaled
-PRESCALED
-prescaler
-PRESCALER
-pretrig
-pretrigger
-PRETRIGGER
-PRPTY
 PXIE                  # Real word
 RATIOMETRIC           # Real word
 readall               # Real word
-readinto
 regen                 # Approved DAQmx abbreviation
 REGEN                 # Approved DAQmx abbreviation
 reglitch              # Real word
 REPLUG                # Real word
 retriggerable         # Real word
 rngs                  # Approved DAQmx abbreviation
-RQST
 RTSI                  # Real word
 rvdt                  # Real word; Approved DAQmx abbreviation
 RVDT                  # Real word; Approved DAQmx abbreviation
 samp                  # Approved DAQmx abbreviation
 Samp                  # Approved DAQmx abbreviation
 SAMP                  # Approved DAQmx abbreviation
-samps
-SAMPS
 SCANLIST              # unseparated words
 SCXI                  # Real word
 SENSITIVIT            # Typo; should be: sensitivity
-sensord
-SMIO
-SPECD
 srcs                  # Approved DAQmx abbreviation
 SUBSYTEM              # Typo; should be: subsystem
-tcpip
 tdms                  # Real word
 tedshwteds            # unseparated initialisms; TEDS HWTEDS
 thrmcpl               # Approved DAQmx abbreviation
@@ -139,12 +91,8 @@ timebase              # Real word; Approved DAQmx abbreviation
 Timebase              # Real word; Approved DAQmx abbreviation
 TIMEBASE              # Real word; Approved DAQmx abbreviation
 TIMETRIGGERS          # unseparated words
-trigs
 TRISTATED             # Real word; Approved DAQmx abbreviation
-UNAVAIL
 UNLOADABLE            # Real word
 USBDAQ                # unseparated initialisms; USB DAQ
 VCXO                  # Real word
-voltaged
 xfer                  # Approved DAQmx abbreviation
-zidx

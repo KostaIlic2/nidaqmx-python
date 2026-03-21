@@ -1,0 +1,375 @@
+api_names.txt cspell context report  -  55 distinct flagged words
+
+============================================================
+  acceld  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3255            AIChannel.ai_acceld_b_ref
+
+============================================================
+  ASYN  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1612            DAQmxErrors.INVALID_ASYN_OP_HANDLE
+
+============================================================
+  CFGD  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1360            DAQmxErrors.DIG_FILTER_INTERVAL_ALREADY_CFGD
+  C:/dev/nidaqmx-python/api_names.txt:1929            DAQmxErrors.NO_INPUT_ON_PORT_CFGD_FOR_WATCHDOG_OUTPUT
+  C:/dev/nidaqmx-python/api_names.txt:2162            DAQmxErrors.PROG_FILTER_CLK_CFGD_TO_DIFFERENT_MIN_PULSE_WIDTH_BY_ANOTHER_TASK_1_PER_DEV
+  C:/dev/nidaqmx-python/api_names.txt:2163            DAQmxErrors.PROG_FILTER_CLK_CFGD_TO_DIFFERENT_MIN_PULSE_WIDTH_BY_SAME_TASK_1_PER_DEV
+  C:/dev/nidaqmx-python/api_names.txt:2505            DAQmxErrors.TERM_CFGD_TO_DIFFERENT_MIN_PULSE_WIDTH_BY_ANOTHER_PROPERTY
+
+============================================================
+  CLKS  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1196            DAQmxErrors.CO_MULTIPLE_WRITES_BETWEEN_SAMP_CLKS
+  C:/dev/nidaqmx-python/api_names.txt:1878            DAQmxErrors.MULTIPLE_WRITES_BETWEEN_SAMP_CLKS
+  C:/dev/nidaqmx-python/api_names.txt:2607            DAQmxErrors.WAIT_FOR_NEXT_SAMP_CLK_DETECTED_3_OR_MORE_SAMP_CLKS
+  C:/dev/nidaqmx-python/api_names.txt:2610            DAQmxErrors.WAIT_FOR_NEXT_SAMPLE_CLOCK_OR_READ_DETECTED_3_OR_MORE_MISSED_SAMP_CLKS
+  C:/dev/nidaqmx-python/api_names.txt:2684            DAQmxWarnings.MULTIPLE_WRITES_BETWEEN_SAMP_CLKS
+
+============================================================
+  COEF  (4 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1014            DAQmxErrors.CAL_CHAN_FORWARD_POLY_COEF_NOT_SPECD
+  C:/dev/nidaqmx-python/api_names.txt:1015            DAQmxErrors.CAL_CHAN_REVERSE_POLY_COEF_NOT_SPECD
+  C:/dev/nidaqmx-python/api_names.txt:1490            DAQmxErrors.FORWARD_POLYNOMIAL_COEF_NOT_SPECD
+  C:/dev/nidaqmx-python/api_names.txt:2260            DAQmxErrors.REVERSE_POLYNOMIAL_COEF_NOT_SPECD
+
+============================================================
+  coeff  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3269            AIChannel.ai_bridge_poly_forward_coeff
+  C:/dev/nidaqmx-python/api_names.txt:3270            AIChannel.ai_bridge_poly_reverse_coeff
+  C:/dev/nidaqmx-python/api_names.txt:3304            AIChannel.ai_dev_scaling_coeff
+  C:/dev/nidaqmx-python/api_names.txt:3307            AIChannel.ai_dig_fltr_coeff
+  C:/dev/nidaqmx-python/api_names.txt:3436            AIChannel.pwr_current_dev_scaling_coeff
+
+============================================================
+  COEFFS  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1802            DAQmxErrors.M_STUDIO_NO_FORWARD_POLY_SCALE_COEFFS
+  C:/dev/nidaqmx-python/api_names.txt:1803            DAQmxErrors.M_STUDIO_NO_FORWARD_POLY_SCALE_COEFFS_USE_CALC
+  C:/dev/nidaqmx-python/api_names.txt:1804            DAQmxErrors.M_STUDIO_NO_POLY_SCALE_COEFFS_USE_CALC
+  C:/dev/nidaqmx-python/api_names.txt:1805            DAQmxErrors.M_STUDIO_NO_REVERSE_POLY_SCALE_COEFFS
+  C:/dev/nidaqmx-python/api_names.txt:1806            DAQmxErrors.M_STUDIO_NO_REVERSE_POLY_SCALE_COEFFS_USE_CALC
+
+============================================================
+  coeffs  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3995            AIChannelCollection.add_ai_force_bridge_polynomial_chan(forward_coeffs)
+  C:/dev/nidaqmx-python/api_names.txt:4002            AIChannelCollection.add_ai_force_bridge_polynomial_chan(reverse_coeffs)
+  C:/dev/nidaqmx-python/api_names.txt:4104            AIChannelCollection.add_ai_pressure_bridge_polynomial_chan(forward_coeffs)
+  C:/dev/nidaqmx-python/api_names.txt:4111            AIChannelCollection.add_ai_pressure_bridge_polynomial_chan(reverse_coeffs)
+  C:/dev/nidaqmx-python/api_names.txt:4230            AIChannelCollection.add_ai_torque_bridge_polynomial_chan(forward_coeffs)
+
+============================================================
+  CONV  (4 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:923            DAQmxErrors.AI_CONV_RATE_TOO_HIGH
+  C:/dev/nidaqmx-python/api_names.txt:1010            DAQmxErrors.CABLED_MODULE_CANNOT_ROUTE_CONV_CLK
+  C:/dev/nidaqmx-python/api_names.txt:1295            DAQmxErrors.DELAY_FROM_SAMP_CLK_WITH_EXT_CONV
+  C:/dev/nidaqmx-python/api_names.txt:2665            DAQmxWarnings.AI_CONV_RATE_TOO_LOW
+
+============================================================
+  conv  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3004            ExportSignals.ai_conv_clk_output_term
+  C:/dev/nidaqmx-python/api_names.txt:3005            ExportSignals.ai_conv_clk_pulse_polarity
+  C:/dev/nidaqmx-python/api_names.txt:3159            Timing.ai_conv_active_edge
+  C:/dev/nidaqmx-python/api_names.txt:3160            Timing.ai_conv_dig_fltr_enable
+  C:/dev/nidaqmx-python/api_names.txt:3161            Timing.ai_conv_dig_fltr_min_pulse_width
+
+============================================================
+  COULDNT  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1477            DAQmxErrors.FIRMWARE_COULDNT_UPDATE
+
+============================================================
+  CTRS  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2641            DAQmxErrors.WRITE_FAILED_MULTIPLE_CTRS_WITH_FREQOUT
+
+============================================================
+  DIFFT  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1353            DAQmxErrors.DIFFT_AI_INPUT_SRC_IN_ONE_CHAN_GROUP
+  C:/dev/nidaqmx-python/api_names.txt:1354            DAQmxErrors.DIFFT_INTERNAL_AI_INPUT_SRCS
+  C:/dev/nidaqmx-python/api_names.txt:1355            DAQmxErrors.DIFFT_SYNC_PULSE_SRC_AND_SAMP_CLK_TIMEBASE_SRC_DEV_MULTI_DEV_TASK
+  C:/dev/nidaqmx-python/api_names.txt:1505            DAQmxErrors.GET_ACTIVE_DEV_PRPTY_FAILED_DUE_TO_DIFFT_VALS
+  C:/dev/nidaqmx-python/api_names.txt:2184            DAQmxErrors.PRPTY_GET_IMPLIED_ACTIVE_CHAN_FAILED_DUE_TO_DIFFT_VALS
+
+============================================================
+  DOESNT  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1772            DAQmxErrors.LAB_VIEW_VERSION_DOESNT_SUPPORT_DA_QMX_EVENTS
+  C:/dev/nidaqmx-python/api_names.txt:2317            DAQmxErrors.SAMP_CLK_RATE_DOESNT_MATCH_SAMP_CLK_SRC
+
+============================================================
+  DONT  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:613            RegenerationMode.DONT_ALLOW_REGENERATION
+  C:/dev/nidaqmx-python/api_names.txt:1160            DAQmxErrors.CHANGE_DETECTION_RISING_AND_FALLING_EDGE_CHAN_DONT_MATCH
+  C:/dev/nidaqmx-python/api_names.txt:1380            DAQmxErrors.DONT_MIX_SYNC_PULSE_AND_SAMP_CLK_TIMEBASE_ON_449_X
+
+============================================================
+  DSTAR  (4 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2276            DAQmxErrors.ROUTING_DEST_TERM_PXI_DSTAR_IN_NON_D_STAR_TRIGGER_SLOT_ROUTING
+  C:/dev/nidaqmx-python/api_names.txt:2277            DAQmxErrors.ROUTING_DEST_TERM_PXI_DSTAR_X_NOT_IN_SYSTEM_TIMING_SLOT_ROUTING
+  C:/dev/nidaqmx-python/api_names.txt:2296            DAQmxErrors.ROUTING_SRC_TERM_PXI_DSTAR_IN_NON_D_STAR_TRIGGER_SLOT_ROUTING
+  C:/dev/nidaqmx-python/api_names.txt:2297            DAQmxErrors.ROUTING_SRC_TERM_PXI_DSTAR_X_NOT_IN_SYSTEM_TIMING_SLOT_ROUTING
+
+============================================================
+  ELEC  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1846            DAQmxErrors.MISMATCHED_ELEC_PHYS_VALUES
+  C:/dev/nidaqmx-python/api_names.txt:2496            DAQmxErrors.TEDS_MIN_ELEC_VAL_GE_MAX_ELEC_VAL
+
+============================================================
+  ethernet  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:5403            Device.tcpip_ethernet_ip
+
+============================================================
+  FREQOUT  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1491            DAQmxErrors.FREQOUT_CANNOT_PRODUCE_DESIRED_FREQUENCY
+  C:/dev/nidaqmx-python/api_names.txt:1492            DAQmxErrors.FREQOUT_CANNOT_PRODUCE_DESIRED_FREQUENCY_2
+  C:/dev/nidaqmx-python/api_names.txt:1493            DAQmxErrors.FREQOUT_CANNOT_PRODUCE_DESIRED_FREQUENCY_3
+  C:/dev/nidaqmx-python/api_names.txt:1599            DAQmxErrors.INVALID_ACQ_TYPE_FOR_FREQOUT
+  C:/dev/nidaqmx-python/api_names.txt:2641            DAQmxErrors.WRITE_FAILED_MULTIPLE_CTRS_WITH_FREQOUT
+
+============================================================
+  hshk  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3019            ExportSignals.hshk_event_delay
+  C:/dev/nidaqmx-python/api_names.txt:3020            ExportSignals.hshk_event_interlocked_assert_on_start
+  C:/dev/nidaqmx-python/api_names.txt:3021            ExportSignals.hshk_event_interlocked_asserted_lvl
+  C:/dev/nidaqmx-python/api_names.txt:3022            ExportSignals.hshk_event_interlocked_deassert_delay
+  C:/dev/nidaqmx-python/api_names.txt:3023            ExportSignals.hshk_event_output_behavior
+
+============================================================
+  HWTSP  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:976            DAQmxErrors.ATTRIBUTE_NOT_SUPPORTED_UNLESS_HWTSP
+  C:/dev/nidaqmx-python/api_names.txt:983            DAQmxErrors.AVERAGING_WHEN_NOT_INTERNAL_HWTSP
+  C:/dev/nidaqmx-python/api_names.txt:1296            DAQmxErrors.DELAY_FROM_SAMPLE_CLOCK_OUT_OF_RANGE_FOR_HWTSP
+  C:/dev/nidaqmx-python/api_names.txt:1322            DAQmxErrors.DEVICE_DOES_NOT_SUPPORT_HWTSP
+  C:/dev/nidaqmx-python/api_names.txt:1527            DAQmxErrors.HWTSP_MULTI_SAMPLE_WRITE
+
+============================================================
+  hysts  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4776            ReferenceTrigger.anlg_multi_edge_hysts
+  C:/dev/nidaqmx-python/api_names.txt:4825            StartTrigger.anlg_multi_edge_hysts
+
+============================================================
+  IMMED  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1544            DAQmxErrors.IMMED_TRIG_DURING_RIS_MODE
+  C:/dev/nidaqmx-python/api_names.txt:1917            DAQmxErrors.NO_COMMON_TRIG_LINE_FOR_IMMED_ROUTE
+
+============================================================
+  IRIGB  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:497            GpsSignalType.IRIGB
+
+============================================================
+  ISOC  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2062            DAQmxErrors.PAL_ISOC_STREAM_BUFFER_ERROR
+
+============================================================
+  lvls  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4777            ReferenceTrigger.anlg_multi_edge_lvls
+  C:/dev/nidaqmx-python/api_names.txt:4826            StartTrigger.anlg_multi_edge_lvls
+
+============================================================
+  MULT  (4 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:927            DAQmxErrors.AI_INPUT_BUFFER_SIZE_NOT_MULT_OF_XFER_SIZE
+  C:/dev/nidaqmx-python/api_names.txt:1588            DAQmxErrors.INTERNAL_AI_INPUT_SRC_IN_MULT_CHAN_GROUPS
+  C:/dev/nidaqmx-python/api_names.txt:1860            DAQmxErrors.MULT_DEVS_MULT_PHYS_CHANS
+  C:/dev/nidaqmx-python/api_names.txt:1861            DAQmxErrors.MULT_SCAN_OPS_IN_ONE_CHASSIS
+
+============================================================
+  nidaqmx  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1  nidaqmx Python API names  —  5285 entries  (file paths relative to generated/nidaqmx/)
+
+============================================================
+  numpy  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2908            InStream.read_into(numpy_array)
+  C:/dev/nidaqmx-python/api_names.txt:2909            InStream.readinto(numpy_array)
+  C:/dev/nidaqmx-python/api_names.txt:2912            OutStream.write(numpy_array)
+
+============================================================
+  nums  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:5294            Device.accessory_product_nums
+  C:/dev/nidaqmx-python/api_names.txt:5296            Device.accessory_serial_nums
+  C:/dev/nidaqmx-python/api_names.txt:5383            Device.id_pin_mem_serial_nums
+
+============================================================
+  onbrd  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3064            InStream.input_onbrd_buf_size
+  C:/dev/nidaqmx-python/api_names.txt:3121            OutStream.output_onbrd_buf_size
+
+============================================================
+  outp  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2961            Timing.cfg_burst_handshaking_timing_export_clock(sample_clk_outp_term)
+
+============================================================
+  PRESCALED  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1140            DAQmxErrors.CHAN_CAL_TABLE_NUM_SCALED_NOT_EQUAL_NUM_PRESCALED_VALS
+
+============================================================
+  prescaled  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:5539            Scale.create_map_scale(prescaled_max)
+  C:/dev/nidaqmx-python/api_names.txt:5540            Scale.create_map_scale(prescaled_min)
+  C:/dev/nidaqmx-python/api_names.txt:5553            Scale.create_table_scale(prescaled_vals)
+
+============================================================
+  PRESCALER  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2155            DAQmxErrors.PRESCALER_NOT_1_FOR_INPUT_TERMINAL
+  C:/dev/nidaqmx-python/api_names.txt:2156            DAQmxErrors.PRESCALER_NOT_1_FOR_TIMEBASE_SRC
+
+============================================================
+  prescaler  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3649            CIChannel.ci_prescaler
+  C:/dev/nidaqmx-python/api_names.txt:3766            COChannel.co_prescaler
+
+============================================================
+  PRETRIG  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2540            DAQmxErrors.TOO_MANY_PRETRIG_PLUS_MIN_POST_TRIG_SAMPS
+  C:/dev/nidaqmx-python/api_names.txt:2746            DAQmxWarnings.PRETRIG_COERCION
+
+============================================================
+  pretrig  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4804            ReferenceTrigger.pretrig_samples
+
+============================================================
+  PRETRIGGER  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:606            ReadRelativeTo.FIRST_PRETRIGGER_SAMPLE
+
+============================================================
+  pretrigger  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4670            ReferenceTrigger.cfg_anlg_edge_ref_trig(pretrigger_samples)
+  C:/dev/nidaqmx-python/api_names.txt:4674            ReferenceTrigger.cfg_anlg_multi_edge_ref_trig(pretrigger_samples)
+  C:/dev/nidaqmx-python/api_names.txt:4678            ReferenceTrigger.cfg_anlg_window_ref_trig(pretrigger_samples)
+  C:/dev/nidaqmx-python/api_names.txt:4683            ReferenceTrigger.cfg_dig_edge_ref_trig(pretrigger_samples)
+  C:/dev/nidaqmx-python/api_names.txt:4686            ReferenceTrigger.cfg_dig_pattern_ref_trig(pretrigger_samples)
+
+============================================================
+  PRPTY  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:913            DAQmxErrors.ACTIVE_CHAN_NOT_SPECD_WHEN_GETTING_1_LINE_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:914            DAQmxErrors.ACTIVE_CHAN_TOO_MANY_LINES_SPECD_WHEN_GETTING_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:918            DAQmxErrors.ACTIVE_PHYS_CHAN_NOT_SPECD_WHEN_GETTING_1_LINE_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:919            DAQmxErrors.ACTIVE_PHYS_CHAN_TOO_MANY_LINES_SPECD_WHEN_GETTING_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:1350            DAQmxErrors.DIFFERENT_PRPTY_VALS_NOT_SUPPORTED_ON_DEV
+
+============================================================
+  readinto  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2860            InStream.readinto
+  C:/dev/nidaqmx-python/api_names.txt:2909            InStream.readinto(numpy_array)
+
+============================================================
+  RQST  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1953            DAQmxErrors.NOT_ENOUGH_SAMPS_WRITTEN_FOR_INITIAL_XFER_RQST_CONDITION
+
+============================================================
+  SAMPS  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:926            DAQmxErrors.AI_EVERY_N_SAMPS_EVENT_INTERVAL_NOT_MULTIPLE_OF_2
+  C:/dev/nidaqmx-python/api_names.txt:948            DAQmxErrors.AO_EVERY_N_SAMPS_EVENT_INTERVAL_NOT_MULTIPLE_OF_2
+  C:/dev/nidaqmx-python/api_names.txt:997            DAQmxErrors.BUFFER_SIZE_NOT_MULTIPLE_OF_EVERY_N_SAMPS_EVENT_INTERVAL_NO_IRQ_ON_DEV
+  C:/dev/nidaqmx-python/api_names.txt:998            DAQmxErrors.BUFFER_SIZE_NOT_MULTIPLE_OF_EVERY_N_SAMPS_EVENT_INTERVAL_WHEN_DMA
+  C:/dev/nidaqmx-python/api_names.txt:1036            DAQmxErrors.CANNOT_CALCULATE_NUM_SAMPS_TASK_NOT_STARTED
+
+============================================================
+  samps  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2965            Timing.cfg_burst_handshaking_timing_export_clock(samps_per_chan)
+  C:/dev/nidaqmx-python/api_names.txt:2972            Timing.cfg_burst_handshaking_timing_import_clock(samps_per_chan)
+  C:/dev/nidaqmx-python/api_names.txt:2976            Timing.cfg_change_detection_timing(samps_per_chan)
+  C:/dev/nidaqmx-python/api_names.txt:2978            Timing.cfg_handshaking_timing(samps_per_chan)
+  C:/dev/nidaqmx-python/api_names.txt:2980            Timing.cfg_implicit_timing(samps_per_chan)
+
+============================================================
+  sensord  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3430            AIChannel.ai_velocity_iepe_sensord_b_ref
+
+============================================================
+  SMIO  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2420            DAQmxErrors.SMIO_PAUSE_TRIGGERS_NOT_SUPPORTED_WITH_CHANNEL_EXPANSION
+
+============================================================
+  SPECD  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:913            DAQmxErrors.ACTIVE_CHAN_NOT_SPECD_WHEN_GETTING_1_LINE_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:914            DAQmxErrors.ACTIVE_CHAN_TOO_MANY_LINES_SPECD_WHEN_GETTING_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:918            DAQmxErrors.ACTIVE_PHYS_CHAN_NOT_SPECD_WHEN_GETTING_1_LINE_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:919            DAQmxErrors.ACTIVE_PHYS_CHAN_TOO_MANY_LINES_SPECD_WHEN_GETTING_PRPTY
+  C:/dev/nidaqmx-python/api_names.txt:1006            DAQmxErrors.BUFFERED_OPS_NOT_SUPPORTED_IN_SPECD_SLOT_FOR_CDAQ
+
+============================================================
+  TCPIP  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:389            BusType.TCPIP
+
+============================================================
+  tcpip  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:5403            Device.tcpip_ethernet_ip
+  C:/dev/nidaqmx-python/api_names.txt:5404            Device.tcpip_hostname
+  C:/dev/nidaqmx-python/api_names.txt:5405            Device.tcpip_wireless_ip
+
+============================================================
+  TRIGS  (2 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:1030            DAQmxErrors.CAN_EXPORT_ONLY_DIG_EDGE_TRIGS
+  C:/dev/nidaqmx-python/api_names.txt:2572            DAQmxErrors.TWO_WAIT_FOR_TRIGS_AFTER_CONNECTION_IN_SCANLIST
+
+============================================================
+  trigs  (3 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4803            ReferenceTrigger.max_num_trigs_to_detect
+  C:/dev/nidaqmx-python/api_names.txt:4851            StartTrigger.max_num_trigs_to_detect
+  C:/dev/nidaqmx-python/api_names.txt:5390            Device.num_time_trigs
+
+============================================================
+  UNAVAIL  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:2180            DAQmxErrors.PROPERTY_UNAVAIL_WHEN_USING_ONBOARD_MEMORY
+
+============================================================
+  voltaged  (1 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:3435            AIChannel.ai_voltaged_b_ref
+
+============================================================
+  zidx  (5 unique lines)
+============================================================
+  C:/dev/nidaqmx-python/api_names.txt:4489            CIChannelCollection.add_ci_ang_encoder_chan(zidx_enable)
+  C:/dev/nidaqmx-python/api_names.txt:4490            CIChannelCollection.add_ci_ang_encoder_chan(zidx_phase)
+  C:/dev/nidaqmx-python/api_names.txt:4491            CIChannelCollection.add_ci_ang_encoder_chan(zidx_val)
+  C:/dev/nidaqmx-python/api_names.txt:4533            CIChannelCollection.add_ci_lin_encoder_chan(zidx_enable)
+  C:/dev/nidaqmx-python/api_names.txt:4534            CIChannelCollection.add_ci_lin_encoder_chan(zidx_phase)

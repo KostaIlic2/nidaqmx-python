@@ -1,0 +1,63 @@
+nidaqmx Python API names  —  flagged only  —  42 entries  (file paths relative to generated/nidaqmx/)
+
+===================
+  ENUM MEMBER (6)
+===================
+* EncoderZIndexPhase.AHIGH_BHIGH                                                             constants.py  AHIGH (unseparated words), BHIGH (unseparated words)
+* EncoderZIndexPhase.AHIGH_BLOW                                                              constants.py  AHIGH (unseparated words)
+* EncoderZIndexPhase.ALOW_BHIGH                                                              constants.py  BHIGH (unseparated words)
+* ProductCategory.USBDAQ                                                                     constants.py  USBDAQ (unseparated initialisms)
+* UsageTypeAI.CURRENT_ACRMS                                                                  constants.py  ACRMS (unseparated initialisms)
+* UsageTypeAI.VOLTAGE_ACRMS                                                                  constants.py  ACRMS (unseparated initialisms)
+
+===================
+  ERROR CODE (32)
+===================
+* DAQmxErrors.ACTION_SEPARATOR_REQUIRED_AFTER_BREAKING_CONNECTION_IN_SCANLIST                error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.CAPI_CANNOT_PERFORM_TASK_OPERATION_IN_ASYNC_CALLBACK                           error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_CANNOT_REGISTER_SYNC_EVENTS_FROM_MULTIPLE_THREADS                         error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_CHAN_INDEX_INVALID                                                        error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_DEVICE_INDEX_INVALID                                                      error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_NO_EXTENDED_ERROR_INFO_AVAILABLE                                          error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_RESERVED_PARAM_NOT_NULL                                                   error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_RESERVED_PARAM_NOT_NULL_NOR_EMPTY                                         error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_RESERVED_PARAM_NOT_ZERO                                                   error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_SYNC_CALLBACK_NOT_SUPPORTED_ON_THIS_PLATFORM                              error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CAPI_SYNC_EVENTS_TASK_STATE_CHANGE_NOT_ALLOWED_FROM_DIFFERENT_THREAD           error_codes.py  CAPI (unseparated words)
+* DAQmxErrors.CIHW_TIMED_SINGLE_POINT_NOT_SUPPORTED_FOR_MEAS_TYPE                            error_codes.py  CIHW (unseparated initialisms)
+* DAQmxErrors.CONNECTION_IN_SCANLIST_MUST_WAIT_FOR_TRIG                                      error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.DISCONNECTION_REQUIRED_IN_SCANLIST                                             error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.EXCEEDED_TOTAL_TIMETRIGGERS_AVAILABLE                                          error_codes.py  TIMETRIGGERS (unseparated words)
+* DAQmxErrors.EXTERNAL_TIMEBASE_RATE_NOTKNOWN_FOR_RATE                                       error_codes.py  NOTKNOWN (unseparated words)
+* DAQmxErrors.FILTER_DELAY_REMOVAL_NOT_POSSSIBLE_WITH_ANALOG_TRIGGER                         error_codes.py  POSSSIBLE (typo)
+* DAQmxErrors.INVALID_ATTENTUATION_BASED_ON_MIN_MAX                                          error_codes.py  ATTENTUATION (typo)
+* DAQmxErrors.INVALID_SCANLIST                                                               error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.INVALID_TIMEBASE_FOR_COHWTSP                                                   error_codes.py  COHWTSP (unseparated initialisms)
+* DAQmxErrors.INVALIDC_DAQ_SYNC_PORT_CONNECTION_FORMAT                                       error_codes.py  INVALIDC (typo)
+* DAQmxErrors.MAX_SOUND_PRESSURE_MIC_SENSITIVIT_RELATED_AI_PROPERTIES_NOT_SUPPORTED_BY_DEV   error_codes.py  SENSITIVIT (typo)
+* DAQmxErrors.MULTIDEVICE_WITH_ON_DEMAND_TIMING                                              error_codes.py  MULTIDEVICE (unseparated words)
+* DAQmxErrors.MULTIPLE_SUBSYTEM_CALIBRATION                                                  error_codes.py  SUBSYTEM (typo)
+* DAQmxErrors.NONBUFFERED_OR_NO_CHANNELS                                                     error_codes.py  NONBUFFERED (unseparated words)
+* DAQmxErrors.NONBUFFERED_READ_MORE_THAN_SAMPS_PER_CHAN                                      error_codes.py  NONBUFFERED (unseparated words)
+* DAQmxErrors.ONLY_PEM_OR_DER_CERTITICATES_ACCEPTED                                          error_codes.py  CERTITICATES (typo)
+* DAQmxErrors.SEND_ADV_CMPLT_AFTER_WAIT_FOR_TRIG_IN_SCANLIST                                 error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.START_TRIG_CONFLICT_WITH_COHW_TIMED_SINGLE_PT                                  error_codes.py  COHW (unseparated initialisms)
+* DAQmxErrors.SWITCH_SCANLIST_TOO_BIG                                                        error_codes.py  SCANLIST (unseparated words)
+* DAQmxErrors.TRIG_WHEN_AOHW_TIMED_SINGLE_PT_SAMP_MODE                                       error_codes.py  AOHW (unseparated initialisms)
+* DAQmxErrors.TWO_WAIT_FOR_TRIGS_AFTER_CONNECTION_IN_SCANLIST                                error_codes.py  SCANLIST (unseparated words)
+
+====================
+  WARNING CODE (1)
+====================
+* DAQmxWarnings.CAPI_STRING_TRUNCATED_TO_FIT_BUFFER                                          error_codes.py  CAPI (unseparated words)
+
+========================
+  CHANNEL PROPERTY (2)
+========================
+* AIChannel.ai_current_acrms_units                                                           task/channels/_ai_channel.py  acrms (unseparated initialisms)
+* AIChannel.ai_voltage_acrms_units                                                           task/channels/_ai_channel.py  acrms (unseparated initialisms)
+
+=======================
+  SYSTEM PROPERTY (1)
+=======================
+* Device.hwteds_supported                                                                    system/device.py  hwteds (unseparated initialisms)

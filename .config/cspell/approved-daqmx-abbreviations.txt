@@ -1,0 +1,359 @@
+# WARNING: Abbreviations are considered part of the DAQmx API and changes to
+# the abbreviations should be included as part of an API Review.
+#
+# Guidelines:
+#
+# Rejected Abbreviations: For terms we explicitly don't want to abbreviate, list
+# the original term as the "abbreviation" (e.g. Actual)
+#
+# Rejected Full-terms: if a term should not show up,
+# 1) include it but don't specify an appreviation (e.g. "Cal").  These exist
+# when they are part of an abbreviated phrase.  We have to list the individual
+# parts of the phrase in this file as well.
+# 2) Include make the abbreviated form an expansion of itself (e.g. CJC).
+#
+# Units: The general rule is to use the same units that industry typically uses for
+# the associated sensors/measurements. So, when a customer looks at their sensor data
+# sheet, they should not have to translate from one unit terminology to another.
+
+Above: Above
+Acceleration: Acceleration
+Accelerometer: Accel
+Accessory: Accessory
+Accuracy: Accur
+Acknowledge: Ack
+Active: Active
+Actual: Actual
+Actuator: Actuator
+Advance: Adv
+Advanced: Advanced
+After: After
+Alias: Alias
+Allow: Allow
+Altitude: Alt
+Ampere: Amp # As long as no ambiguities with Amplifier exist
+Amplifier: Amp # As long as no ambiguities with Ampere exist
+Analog Input: AI
+Analog Output: AO
+Analog: Anlg
+Angle: Ang
+Angular: Ang
+Antenna: Ant
+Atomic: Atomic
+Attenuation: Atten
+Attribute: Attr
+Attributes: Attrs
+Auto: Auto
+Available: Avail
+Average: Avg
+Averages: Avgs
+Balance: Bal
+Band: Band
+Base: Base
+Binary: Bin
+Board: Brd
+Bottom: Btm
+Bridge: Bridge
+CJC: CJC # We do not expand Cold Junction Compensation
+Cabled: Cabled
+Cal: # Shouldn't be used by itself.  See "Calibration" and "Shunt Cal"
+Calibration: Cal
+Capacitor: Cap
+Cartridge: Cartridge
+Center: Center
+Channel: Chan
+Channels: Chans
+Chassis: Chassis
+Clock: Clk
+Communicating: Comm
+Communicator: Comm
+Comparator: Comparator
+Compensated: Compen
+Compensation: Compen
+Complete: Cmplt
+Compliance: Compliance
+Condition: Cond
+Conditioning: Conditioning
+Configuration: Cfg
+Configurations: Cfgs
+Configure: Cfg
+Connect: Conn
+Connected: Conn
+Connecting: Conn
+Connector: Conn
+Constant: Const
+Continuous Pulse Train: ContPulseTrain
+Continuous: Cont
+Coordinated Universal Time: UTC
+Coordinated: Coordinated
+Correction: Correction
+Count: Cnt, Count # Cnt when at the end, count otherwise
+Counter Input: CI
+Counter Output: CtrOut, CO # CtrOut As an event
+Counter: Ctr
+Coupling: Coupling
+Current Excitation: Iex
+Current: Current, Curr # Or lose the word (context dependent)
+Custom: Custom
+Cutoff: Cutoff
+Cycle: Cyc
+DAC: DAC # Don't spell out
+DC: DC # Don't spell out
+DSA: DSA # We do not expand Digital Signal Accessory
+Data: Data
+Delay: Delay
+Detect: Detect
+Detected: Detected
+Detection: Detect
+Device: Dev
+Devices: Devs
+Differential: Diff
+Digital Input: DI
+Digital Output: DO
+Digital: Dig
+Digitizer: Digitizer
+Diode: Diode
+Direction: Dir
+Display: Disp
+Distance: Dist
+Dither: Dither
+Divide: Div
+Divisor: Div
+Down: Down
+Dual: Dual
+Duty Cycle: Duty Cycle
+Duty: Duty
+Dynamic: Dyn
+Edge: Edge
+Ellipsoid: Ellipsoid
+Enable: Enable
+Encoder: Encoder
+Ended: Ended
+Engineering: Eng
+Enhanced: Enhanced
+Events: Events
+Excitation: Excit
+Expiration: Expir
+Exponential: Exp
+External: Ext
+FSK: FSK # Don't spell out
+Factor: Factor
+Family: Family
+Filter: Fltr
+Finite Pulse Train: FinitePulseTrain
+Finite: Finite
+For: For
+Frequency: Freq
+GPS: GPS # Don't spell out
+Gage: Gage
+Gain: Gain
+General: Gen
+Generate: Gen
+Generator: Gen
+Ground: Gnf
+HDOP: HDOP # Don't spell out
+Handshaking: Handshaking
+Hardware: HW
+Height Above Ellipsoid: HAE
+Height: Height
+Hold: Hold
+Hysteresis: Hyst
+Idle: Idle
+Image: Image
+Impedance: Impedance
+Increment: Incr
+Index: Index
+Initial: Initial
+Initialize: Init
+Input: Input
+Interface: Interface
+Internal: Int, Internal # Internal should only be used as a prefix for internal attributes
+International Atomic Time: TAI
+International: International
+Interpolation: Interp
+Interpretation: Interp
+Invert: Inv
+Justification: Justification
+LED: LED # We do not expand Light Emitting Diode
+LVDT: LVDT # Don't spell out
+Latch: Latch
+Latching: Latch
+Latitude: Lat
+Lead: Lead
+Level: Level
+Level: Lvl
+Limit: Limit
+Line: Line
+Linear: Lin
+Lines: Lines
+Location: Loc
+Logic: Logic
+Longitude: Long
+Map: Map
+Mapping: Map
+Mask: Mask
+Master: Master
+Maximum: Max
+Mean Sea Level: MSL
+Mean: Mean
+Means: Means
+Measurable: Meas
+Measurement: Meas
+Mechanism: Mech
+Memory: Mem
+Message: Msg
+Method: Meth
+Microphone: Mic
+Minimum: Min
+Minute: Minute
+Multiple: Multi
+Name: Name
+Navigation: Nav
+Network: Network
+Nominal: Nom
+Non-Referenced Single-Ended: NRSE
+Non: Non
+Notch: Notch
+Number: Num
+Offset: Offset
+Ohms: Ohms
+Operation: Op
+Order: Order
+Output Clock: outClk
+Output: Output
+Overload: Overload
+Overloaded: Overloaded
+PDOP: PDOP # Don't spell out
+PPS: PPS # Don't spell out
+Pass: Pass
+Pattern: Pattern
+Per-Channel: Per-Channel
+Per-Line: Per-Line
+Per: Per
+Period: Period
+Peripheral: Periph
+Phase: Phase
+Poisson Ratio: Poisson Ratio
+Poisson: Poisson
+Polarity: Polarity
+Polarizing: Polarizing
+Position: Pos
+Potentiometer: Pot
+Power: Power, Pwr # Power (preferable) or Pwr (where required by size constraints (palette names, poly selectors, etc.) or if you are adding switch attr)
+Powerline: Powerline, Pwrln
+Pressure: Pressure
+Probe: Probe
+Programmed: Prog
+Progress: Prog
+Properties: Props
+Pulse Train: Pulse Train
+Pulse: Pulse
+Pulses: Pulses
+Quantity: Quant
+RPM: RPM # Don't spell out Revolutions per Minute
+RTD: RTD # Don't spell out
+RVDT: RVDT # Don't spell out
+RangeVals: RangeVals
+RangeValues: RangeVals
+Range: Rng
+Ranges: Rngs
+Ratio: Ratio
+Reached: Reached
+Ready: Rdy
+Record: Rec
+Reference Clock: RefClk
+Reference: Ref
+Referenced Single-Ended: RSE
+Referenced: Referenced
+Regeneration: Regen
+Reglitching: Reglitching
+Rejection: Rejection
+Relay: Relay
+Request: Req
+Reserve: Reserve
+Resistance: Resistance
+Resistor: Resistor
+Resolution: Resolution
+Revolution: Rev
+Revolutions: Revolutions
+Ro: Ro # What is this?
+Runtime: Runtime
+Sample: Samp
+Satellite: Sat
+Scale: Scale
+Scaling: Scaling
+Sea: Sea
+Semi-Period: Semi-Period
+Semi: Semi
+Sensitivity: Sensitivity
+Sensor: Sensor
+Separation: Sep
+Sequence: Seq
+Setting: Setting
+Settings: Settings
+Settling: Settling
+Shift: Shift # shift, except in FSK
+Shunt Cal: Shunt Cal
+Shunt: Shunt
+Signal: Sig
+Simultaneous: Simultaneous
+Single: Single
+Size: Size
+Skew: Skew
+Software: SW
+Sound Pressure: Sound Pressure
+Sound: Sound
+Source: Src
+Sources: Srcs
+Specification: Spec
+Specifications: Specs
+Speed: Speed
+Square: Square, Sq
+Starting: Starting
+State: State
+Status: Status
+Strain: Strain
+Supported: Supported
+Switch: Switch
+Switched: Switched
+Sync: Sync
+Synchronization: Sync
+Temperature: Temp
+Terminal: Term
+Terminals: Terms
+Test: Test
+Thermistor: Thrmstr
+Thermocouple: Thrmcpl
+Threshold: Thresh # Or leave out
+Ticks: Ticks
+Time: Time
+Timebase: Timebase
+Timing: Timing
+Train: Train
+Transfer: Xfer
+Transition: Trans
+Triangle: Tri
+Trigger: Trig
+Tristated: Tristated
+Two Edge: Two Edge
+Two: Two
+Type: Type
+Units: Units
+Universal: Universal
+Unused: Unused
+VDOP: VDOP
+Value: Val
+Values: Vals
+Velocity: Velocity
+Vertical: Vert
+Vibration: Vibr
+Voltage Excitation: Vex
+Voltage: Voltage
+Wait: Wait
+Waveform: Wfm
+Width: Width
+Window: Win
+Wire: Wire
+Wired: Wired
+Zero: Zero
+per: per
