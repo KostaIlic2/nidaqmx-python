@@ -5,6 +5,7 @@
   "dictionaryDefinitions": [
     { "name": "daqmx-api-elements", "path": "./cspell/daqmx-api-elements.txt", "noSuggest": true },
     { "name": "daqmx-python-api-elements", "path": "./cspell/daqmx-python-api-elements.txt", "noSuggest": true },
+    { "name": "daqmx-python-api-elements-other-than-typos-and-unseparated", "path": "./cspell/daqmx-python-api-elements-other-than-typos-and-unseparated.txt", "noSuggest": true },
     { "name": "daqmx-python-api-elements-with-comments", "path": "./cspell/daqmx-python-api-elements-with-comments.txt", "noSuggest": true },
     { "name": "real-words", "path": "./cspell/real-words.txt", "noSuggest": false },
     { "name": "mako-keywords", "path": "./cspell/mako-keywords.txt", "noSuggest": true },
@@ -37,7 +38,7 @@
       "filename": "api_names.txt",
       "caseSensitive": true,
       "maxDuplicateProblems": 100,
-      "dictionaries": ["daqmx-python-api-elements"]
+      "dictionaries": ["daqmx-python-api-elements-other-than-typos-and-unseparated"]
     },
     {
       "filename": "**/*.mako",

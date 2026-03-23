@@ -1,0 +1,126 @@
+acceld
+anlg                  # Approved DAQmx abbreviation
+ASYN
+atten                 # Approved DAQmx abbreviation
+BACKPLANE             # Real word
+bandpass              # Real word
+BRICKWALL             # Real word
+BUTTERWORTH           # Real word
+cdaq                  # Real word
+CFGD
+cfgs                  # Approved DAQmx abbreviation
+chan                  # Approved DAQmx abbreviation
+chans                 # Approved DAQmx abbreviation
+CLKS
+cmplt                 # Approved DAQmx abbreviation
+CMPLT                 # Approved DAQmx abbreviation
+COEF
+coeff
+coeffs
+COEFFS
+conv
+CONV
+COULDNT
+CTRS
+deassert              # Real word
+Deassert              # Real word
+DEASSERTS             # Real word
+devs                  # Approved DAQmx abbreviation
+DEVS                  # Approved DAQmx abbreviation
+DIFFT
+DOESNT
+DONT
+DSTAR
+EEPROM                # Real word
+ELEC
+ethernet
+excit                 # Approved DAQmx abbreviation
+Excit                 # Approved DAQmx abbreviation
+EXCIT                 # Approved DAQmx abbreviation
+expir                 # Approved DAQmx abbreviation
+Expir                 # Approved DAQmx abbreviation
+fltr                  # Approved DAQmx abbreviation
+FREQOUT
+gage                  # Approved DAQmx abbreviation
+highpass              # Real word
+hshk
+HWTSP
+hyst                  # Approved DAQmx abbreviation
+hysts
+iepe                  # Real word
+IEPE                  # Real word
+IMMED
+IRIGB
+ISOC
+JUMPERED              # Real word
+lowpass               # Real word
+LOWPASS               # Real word
+lvdt                  # Real word; Approved DAQmx abbreviation
+LVDT                  # Real word; Approved DAQmx abbreviation
+lvls
+MDNS                  # Real word
+MILLI                 # Real word
+MIODAQ                # Real word
+MULT
+nidaqmx
+NIELVIS               # Real word
+NONPRINTABLE          # Real word
+NRSE                  # Approved DAQmx abbreviation
+numpy
+nums
+onbrd
+outp
+overcurrent           # Real word
+OVERREAD              # Real word
+overtemperature       # Real word
+overvoltage           # Real word
+PICO                  # Real word
+poisson               # Approved DAQmx abbreviation
+POWERUP               # Real word
+prescaled
+PRESCALED
+prescaler
+PRESCALER
+pretrig
+pretrigger
+PRETRIGGER
+PRPTY
+PXIE                  # Real word
+RATIOMETRIC           # Real word
+readall               # Real word
+readinto
+regen                 # Approved DAQmx abbreviation
+REGEN                 # Approved DAQmx abbreviation
+reglitch              # Real word
+REPLUG                # Real word
+retriggerable         # Real word
+rngs                  # Approved DAQmx abbreviation
+RQST
+RTSI                  # Real word
+rvdt                  # Real word; Approved DAQmx abbreviation
+RVDT                  # Real word; Approved DAQmx abbreviation
+samp                  # Approved DAQmx abbreviation
+Samp                  # Approved DAQmx abbreviation
+SAMP                  # Approved DAQmx abbreviation
+samps
+SAMPS
+SCXI                  # Real word
+sensord
+SMIO
+SPECD
+srcs                  # Approved DAQmx abbreviation
+tcpip
+tdms                  # Real word
+thrmcpl               # Approved DAQmx abbreviation
+thrmstr               # Approved DAQmx abbreviation
+timebase              # Real word; Approved DAQmx abbreviation
+Timebase              # Real word; Approved DAQmx abbreviation
+TIMEBASE              # Real word; Approved DAQmx abbreviation
+trigs
+TRISTATED             # Real word; Approved DAQmx abbreviation
+UNAVAIL
+UNLOADABLE            # Real word
+VCXO                  # Real word
+voltaged
+xfer                  # Approved DAQmx abbreviation
+zidx
